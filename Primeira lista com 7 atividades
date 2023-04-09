@@ -1,0 +1,192 @@
+JOÃO VICTOR MAIA LEITE - ADS ( TIVE MUITA DIFICULDADES NA SICERIDADE , MAS ME ESFORCEI PROFESSOR )
+Problema 1 
+
+programa {
+  funcao inicio() {
+    
+ 
+   inteiro: numero: 
+   numero = 5 
+   escreva("Informe um número: ");
+   leia(numero);
+   escreva("O número informado foi ", numero);
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+_________________________
+Problema 2 
+
+Java + portugol
+
+
+
+ importar java.util.Scanner;
+
+public class ConversaoDeMetrosParaCentimetros {
+
+public static void main(String[] args) { Scanner entrada = new Scanner(System.in);
+double metros, centimetros;
+
+System.out.print("Digite um valor em metros: ");
+metros = entrada.nextDouble();
+
+centimetros = metros * 100;
+
+System.out.println(metros + " metros equivalem a " + centimetros + " centimetros");
+
+entrada.close();
+
+_________________________
+
+
+programa 2 portugol 
+
+programa { 
+  funcao inicio() {
+    
+    // convertendo metros para centimetros // 
+    
+   real: metros, centimetros:
+
+
+    
+     escreva ("digite um valor em metros:")
+     leia(metros)
+   
+     centimetros = metros * 100
+
+     escreva(metros, " metros equivale a ", centimetros, " centimetros.")  
+
+
+  }
+}
+_________________________
+
+
+
+Problema 3 
+
+algoritmo "Exibir nome do usuário"
+var
+    nome: caractere
+inicio
+    escreva("Digite o seu nome: ")
+    leia(nome)
+    
+    escreva("O seu nome é ", nome)
+fimalgoritmo
+
+
+_________________________
+
+problema 4 
+
+
+programa {
+  funcao inicio() {
+  
+  
+  
+  real valor_hora, salario_mensal: 
+
+   escreva("Qual o valor que você ganha por hora? ")
+   leia(valor_hora)
+
+   salario_mensal = valor_hora * 8 * 22
+
+   escreva("Seu salário mensal é de R$", salario_mensal)
+
+
+  }
+}
+
+__________________________
+
+problema 5 pronto
+
+programa {
+  funcao inicio() {
+  
+  real  nota1, nota2, nota3, nota4, soma 
+    real media 
+
+
+   escreva("Digite a nota 1: ")
+   leia(nota1)
+
+   escreva("Digite a nota 2: ")
+   leia(nota2)
+
+   escreva("Digite a nota 3: ")
+   leia(nota3)
+
+   escreva("Digite a nota 4: ")
+   leia(nota4)
+
+   soma = nota1 + nota2 + nota3 + nota4
+   media = soma / 4
+
+   escreva("A soma das notas é: ", soma )
+   escreva("A média das notas é: ", media) 
+  }
+}__________________________
+
+
+problema 6
+
+
+ programa {
+  funcao inicio() {
+  
+  
+   real fahrenheit, celsius:
+
+
+   escreva("Digite a temperatura em Fahrenheit: ")
+   leia(fahrenheit)
+
+   celsius = 5 * ((fahrenheit - 32) / 9)
+
+   escreva("A temperatura em Celsius é: ", celsius, "°C")
+
+  }
+}_________________________
+Problema 7
+
+
+Algoritmo
+
+var metrosQuadrados, litrosTinta, latasTinta: inteiro
+var precoTotal: real
+
+Escreva("Digite o tamanho em metros quadrados da área a ser pintada:")
+Leia(metrosQuadrados)
+
+litrosTinta = arredondarAcima(metrosQuadrados / 3.0)
+latasTinta = arredondarAcima(litrosTinta / 18.0)
+precoTotal = latasTinta * 80.0
+
+Escreva("Você precisará comprar ", latasTinta, " latas de tinta, com um total de R$", precoTotal, ".")
+
+função arredondarAcima(numero: real) retorna inteiro
+se numero inteiro então
+retorna numero
+senão
+retorna inteiro(numero + 1)
+fim se
+fim função
+
+}
